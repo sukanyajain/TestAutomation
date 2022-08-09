@@ -1,4 +1,5 @@
 # TestAutomation
+Add projects to github from eclipse
 Step 1
 Create account on GitHub - https://github.com/
 
