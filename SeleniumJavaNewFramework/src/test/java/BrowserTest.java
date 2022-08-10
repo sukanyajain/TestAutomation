@@ -34,11 +34,6 @@ public class BrowserTest {
 		
 		System.out.println("Count of Input elemtns : "+count);
 		
-		
-		//WebElement textBox = driver.findElement(By.id("lst-ib"));
-		
-		//textBox.sendKeys("Automation Step by Step");
-		
 		Thread.sleep(3000);
 		
 		driver.close();
