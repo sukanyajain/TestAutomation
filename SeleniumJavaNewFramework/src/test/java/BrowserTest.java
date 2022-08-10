@@ -36,8 +36,9 @@ public class BrowserTest {
 		
 		Thread.sleep(3000);
 		
+		
 		driver.close();
-		//driver.quit();
+		driver.quit();
 		
 	}
 	
