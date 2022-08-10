@@ -14,6 +14,7 @@ public class seleniumwebdrivertest {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://youtube.com");
+		driver.findElement(By.id("search")).sendKeys("abc");
 		try {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
